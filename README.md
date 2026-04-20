@@ -175,3 +175,66 @@ Supports evidence-based policymaking by:
 - Use real-world datasets from World Bank or government portals
 - Add predictive forecasting models
 - Create interactive dashboards
+# Social Risk Prediction Model
+
+## Project Overview
+This project develops a Machine Learning model to identify individuals or households at risk of requiring social support. The goal is to enable early intervention and proactive decision-making aligned with Smart Nation initiatives.
+
+Government agencies often need to identify vulnerable populations early to provide timely assistance such as financial aid, healthcare support, or employment services.
+
+## Problem Statement
+Predict whether a citizen is at high social risk based on socio-economic indicators such as income, employment status, household size, education level, and medical conditions.
+
+## Dataset
+Synthetic dataset simulating real-world socio-economic indicators:
+
+Features:
+- age
+- income
+- employment_status
+- household_size
+- education_level
+- medical_condition
+- previous_assistance
+
+Target:
+- high_risk (0 = low risk, 1 = high risk)
+
+## Machine Learning Approach
+- Data preprocessing using pandas
+- Feature engineering
+- Random Forest Classification model
+- Model evaluation using classification metrics
+
+## Key Results
+The model successfully predicts individuals with higher probability of needing early social support.
+
+Feature importance analysis identifies major risk drivers such as:
+- Low income
+- Unemployment
+- Medical conditions
+- Previous financial assistance
+
+## Business Impact
+Supports proactive government intervention strategies by:
+- Identifying vulnerable populations early
+- Enabling targeted resource allocation
+- Improving social welfare outcomes
+
+## Technologies Used
+- Python
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+
+## How to Run
+1. Open Jupyter Notebook
+2. Run notebook cells sequentially
+3. Dataset will be generated automatically
+4. Model training and evaluation results will be displayed
+
+## Future Improvements
+- Deploy dashboard using Streamlit
+- Integrate real-world socio-economic datasets
+- Improve model performance using XGBoost
