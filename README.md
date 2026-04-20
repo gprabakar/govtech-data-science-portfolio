@@ -121,3 +121,57 @@ Supports Smart Nation initiatives by:
 - Use real operational datasets
 - Apply advanced regression models
 - Build real-time dashboard for monitoring service efficiency
+# Public Policy Data Analysis
+
+## Project Overview
+This project analyzes public policy trends using statistical and data visualization techniques. The goal is to understand relationships between government spending and socio-economic outcomes.
+
+Public sector organizations rely on data-driven insights to evaluate policy effectiveness and improve long-term planning.
+
+## Problem Statement
+Analyze how public spending influences socio-economic indicators such as employment rate and life expectancy.
+
+## Dataset
+Synthetic time-series dataset representing yearly policy indicators.
+
+Features:
+- year
+- education_spending
+- health_spending
+- employment_rate
+- life_expectancy
+
+## Analytical Approach
+- Time series trend visualization
+- Correlation analysis
+- Statistical interpretation of policy impact
+- Data visualization using heatmaps and line charts
+
+## Key Insights
+Analysis helps identify relationships between:
+- Education spending and employment outcomes
+- Healthcare investment and life expectancy
+- Long-term policy effectiveness
+
+## Business Impact
+Supports evidence-based policymaking by:
+- Providing data insights for government decision makers
+- Identifying trends and patterns in socio-economic indicators
+- Improving public policy effectiveness
+
+## Technologies Used
+- Python
+- pandas
+- numpy
+- matplotlib
+- seaborn
+
+## How to Run
+1. Open Jupyter Notebook
+2. Execute cells sequentially
+3. Charts and correlation matrix will be generated
+
+## Future Improvements
+- Use real-world datasets from World Bank or government portals
+- Add predictive forecasting models
+- Create interactive dashboards
